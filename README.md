@@ -1,2 +1,2 @@
 # NDE-docker
-Build custom module in a docker enviroment.
+Build NDE custom module in a Docker environment.
