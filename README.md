@@ -7,7 +7,7 @@ Build NDE custom module in a Docker environment.
 
 ## Building and Running Instructions
 
-## 1. Add the Custom Module
+### 1. Add the Custom Module
 Add your custom module to the NDE-Docker folder and then place the Dockerfile inside your custom module.
 
 The latest package can be found in this repo:
