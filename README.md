@@ -28,7 +28,12 @@ docker run -p 4201:4201 nde-custom-module
 ### 4. Access the Application
 Once the container is running, access the application at:
 ```
-http://localhost:4201/{YOURNDEURL}&useLocalCustomPackage=true
+{YOURNDEURL}&useLocalCustomPackage=true
+```
+OR
+
+```
+http://localhost:4201/{YOURNDEPARAMETERS}
 ```
 
 ## Troubleshooting
