@@ -2,7 +2,7 @@
 FROM node:18-alpine
 
 # Set the working directory inside the container
-# Chage the path to your custom module if the name is different
+# Change the path to your custom module if the name is different
 WORKDIR /app/customModule-main
 
 # Copy package.json and package-lock.json first for better caching
@@ -21,4 +21,5 @@ EXPOSE 4201
 CMD ["npm", "run", "start", "--", "--host", "0.0.0.0"]
 
 # Start by using proxy.conf.mjs config
+# Add you your NDE url to the proxy.const.mjs file
 #CMD ["npm", "run", "start:proxy", "--", "--host", "0.0.0.0"]
