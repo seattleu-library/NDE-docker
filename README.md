@@ -30,13 +30,14 @@ Once the container is running, access the application at:
 
 NDE URL view
 ```
-{YOURNDEURL}&useLocalCustomPackage=true
+{NDEURL}/nde/home?vid={YourVID}INST:{YourINST}&useLocalCustomPackage=true
 ```
 -OR-
 
-Localhost NDE Parameters
+Localhost proxy NDE Parameters
+-Add the NDE url to the proxy.const.mjs file
 ```
-http://localhost:4201/{YOURNDEPARAMETERS}
+http://localhost:4201/nde/home?vid={YourVID}INST:{YourINST}
 ```
 
 ## Troubleshooting

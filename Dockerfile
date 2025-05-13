@@ -21,5 +21,4 @@ EXPOSE 4201
 CMD ["npm", "run", "start", "--", "--host", "0.0.0.0"]
 
 # Start by using proxy.conf.mjs config
-# Add you your NDE url to the proxy.const.mjs file
 #CMD ["npm", "run", "start:proxy", "--", "--host", "0.0.0.0"]
