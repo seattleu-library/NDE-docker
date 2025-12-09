@@ -18,7 +18,7 @@ COPY . .
 EXPOSE 4201
 
 # Start by using NDE URL parameter
-CMD ["npm", "run", "start", "--", "--host", "0.0.0.0"]
+CMD ["npm", "run", "start", "--", "--host", "0.0.0.0", "--port", "4201"]
 
 # Start by using proxy.conf.mjs config
-#CMD ["npm", "run", "start:proxy", "--", "--host", "0.0.0.0"]
+#CMD ["npm", "run", "start:proxy", "--", "--host", "0.0.0.0", "--port", "4201"]

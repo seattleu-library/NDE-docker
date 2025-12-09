@@ -13,6 +13,8 @@ Add your custom module to the NDE-Docker folder and then place the Dockerfile in
 The latest package can be found in this repo:
 https://github.com/ExLibrisGroup/customModule
 
+Change Directory (cd) into the customModule-main directory.
+
 ### 2. Build the Docker Image
 Navigate to the project directory and run:
 ```bash
@@ -30,14 +32,14 @@ Once the container is running, access the application at:
 
 NDE URL view
 ```
-{NDEURL}/nde/home?vid={YourVID}INST:{YourINST}&useLocalCustomPackage=true
+{NDEURL}/nde/home?vid={YourVID}&useLocalCustomPackage=true
 ```
 -OR-
 
 Localhost proxy NDE Parameters
 -Add the NDE url to the proxy.const.mjs file
 ```
-http://localhost:4201/nde/home?vid={YourVID}INST:{YourINST}
+http://localhost:4201/nde/home?vid={YourVID}&lang=en
 ```
 
 ## Troubleshooting
